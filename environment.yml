@@ -1,0 +1,22 @@
+channels:
+- conda-forge
+- bioconda
+- defaults
+
+dependencies:
+- r=>3.5.1
+- kallisto
+- star
+- bioconductor-deseq2
+- bioconductor-limma
+- bioconductor-tximport
+- fastqc
+- rseqc
+- wget
+- snakemake-minimal=>5.3.0
+- graphviz=>2.38.0
+- xorg-libxrender
+- xorg-libxpm
+- r-xml
+- bioconductor-biomart
+- r-gplots
